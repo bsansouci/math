@@ -62,8 +62,6 @@ math.n.config({DECIMAL_PLACES: 500});
 var irrational = math.solve([math.sqrt, 2]);
 console.log(irrational.toString());
 
-
-
 // The main problem right now is that it's slow
 // Uncomment this to test
 // (the first loop takes me 5924ms)
